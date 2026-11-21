@@ -703,7 +703,9 @@ h1, h2, h3 {
     content: "";
     display: block;
     aspect-ratio: 1088 / 558;
-    background: url("hero_dx.jpg") center center / cover no-repeat;
+    background:
+     linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.85)),
+     url("hero_dx.jpg") center center / cover no-repeat;
     margin-bottom: 40px;
   }
 }
