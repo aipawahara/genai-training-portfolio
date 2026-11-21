@@ -39,11 +39,13 @@
 - 成果物：映画のテイストや作風の類似性を可視化し、鑑賞傾向を分析するデータアート。Excelで管理した映画リストを起点に、Wikipedia APIであらすじ等のメタデータを自動取得し、言語モデルによるEmbeddingとUMAPによる次元削減で3次元座標化、カテゴリ別に色分けした3D散布図として可視化。
 - 自分の役割（設計・指示・検証）：分析設計（類似性の定義）、データ収集・整形の実装ディレクション、結果の解釈・検証。
 - ・プロジェクト一式（コード・データ・3Dマップ）：https://github.com/aipawahara/movie_mapping
+- ・3Dマップ（ブラウザ表示）：https://aipawahara.github.io/movie_mapping/movie_taste_map.html
 
 ## 実績7：AIとのコーディング練習（コーポレートサイト制作）
 - 成果物：架空のコンサルティング会社「Meridian Consulting」のコーポレートサイト一式（HTML/CSS/JavaScript）
 - 担当領域：AIへの制作指示、生成物のレビュー観点の言語化（色味の統一、余白、スクロールのリズム等）、修正の指示と確認。
 - ・サイト一式：https://github.com/aipawahara/genai-training-portfolio/tree/main/site/meridian
+- ・サイト表示：https://aipawahara.github.io/genai-training-portfolio/site/meridian/index.html
 
 ## 補足：教育分野のバックグラウンド
 家庭教師・学習支援での指導経験を通じ、受験生、難関私立在籍の生徒、発達障害、不登校など幅広い生徒を担当した経験から受講者の理解度に応じて手順を噛み砕き、演習で定着させる構成力を培っています。
