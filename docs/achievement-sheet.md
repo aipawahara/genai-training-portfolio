@@ -18,26 +18,32 @@
 ## 実績2：複数LLMのAPI比較・検証環境「LLMサバイバル」
 - 成果物：複数LLMをAPI経由で接続し、アキネイターやワードウルフなど同一課題に対する応答を比較・自動ログ化する仕組み。GitHubにてログと一部コード公開。
 - 担当領域：検証ルール・プロンプト・ログ出力形式の設計、AI支援を用いた実装ディレクション、障害発生時のログ解析・原因特定・再実行テスト。
+- ・検証ログ：https://github.com/aipawahara/genai-training-portfolio/blob/main/logs/llm-survival-rate-limit-case.md
 
 ## 実績3：AIエージェント基盤Museによるデータ整理・業務自動化
 - 成果物：①映画リスト1,484件の統合データ、②Gmailの予定通知をカレンダーへ自動登録する運用。③実験レポートの大幅効率化
 - 担当領域：エージェントへの作業手順・例外処理ルールの設計と指示、出力データの突合・欠損チェック・品質検証。
+- ・検証ログ：https://github.com/aipawahara/genai-training-portfolio/tree/main/logs
 
 ## 実績4：エージェント型コーディング環境Antigravityを用いた開発・検証
 - 成果物：複数LLMをAPI経由で呼び出し、同一課題への応答を自動で記録・比較する検証プログラム（実績2）や映画のテイストをマッピングするプログラム（実績6）を、Antigravity上でエージェントと協働して構築。
 - 担当領域：要件定義とタスク分解、エージェントへの実装指示、生成コードの挙動確認テスト。
+- ・検証ログ：https://github.com/aipawahara/genai-training-portfolio/blob/main/logs/llm-survival-rate-limit-case.md
 
 ## 実績5：オリジナルキャラ制作＆画像・動画生成
 - 成果物：手描きラフスケッチを起点に、生成AIで三面図形式の設定画を作成し、さらにVeoで8秒動画化した一連の制作物。生成したキャラクターはAIアシスタントMuseのアバターとして実際に採用・継続使用中。
 - 担当領域：ラフ制作、生成指示、品質確認。
+- ・制作物：https://github.com/aipawahara/genai-training-portfolio/tree/main/assets/character
 
 ## 実績6：映画テイスト3Dマップ（データ分析・可視化パイプライン）
 - 成果物：映画のテイストや作風の類似性を可視化し、鑑賞傾向を分析するデータアート。Excelで管理した映画リストを起点に、Wikipedia APIであらすじ等のメタデータを自動取得し、言語モデルによるEmbeddingとUMAPによる次元削減で3次元座標化、カテゴリ別に色分けした3D散布図として可視化。
 - 自分の役割（設計・指示・検証）：分析設計（類似性の定義）、データ収集・整形の実装ディレクション、結果の解釈・検証。
+- ・可視化結果：https://github.com/aipawahara/genai-training-portfolio/blob/main/assets/movie-map/movie-taste-3d-map.png
 
 ## 実績7：AIとのコーディング練習（コーポレートサイト制作）
 - 成果物：架空のコンサルティング会社「Meridian Consulting」のコーポレートサイト一式（HTML/CSS/JavaScript）
 - 担当領域：AIへの制作指示、生成物のレビュー観点の言語化（色味の統一、余白、スクロールのリズム等）、修正の指示と確認。
+- ・サイト一式：https://github.com/aipawahara/genai-training-portfolio/tree/main/site/meridian
 
 ## 補足：教育分野のバックグラウンド
 家庭教師・学習支援での指導経験を通じ、受験生、難関私立在籍の生徒、発達障害、不登校など幅広い生徒を担当した経験から受講者の理解度に応じて手順を噛み砕き、演習で定着させる構成力を培っています。
