@@ -38,7 +38,7 @@
 ## 実績6：映画テイスト3Dマップ（データ分析・可視化パイプライン）
 - 成果物：映画のテイストや作風の類似性を可視化し、鑑賞傾向を分析するデータアート。Excelで管理した映画リストを起点に、Wikipedia APIであらすじ等のメタデータを自動取得し、言語モデルによるEmbeddingとUMAPによる次元削減で3次元座標化、カテゴリ別に色分けした3D散布図として可視化。
 - 自分の役割（設計・指示・検証）：分析設計（類似性の定義）、データ収集・整形の実装ディレクション、結果の解釈・検証。
-- ・可視化結果：https://github.com/aipawahara/genai-training-portfolio/blob/main/assets/movie-map/movie-taste-3d-map.png
+- ・プロジェクト一式（コード・データ・3Dマップ）：https://github.com/aipawahara/movie_mapping
 
 ## 実績7：AIとのコーディング練習（コーポレートサイト制作）
 - 成果物：架空のコンサルティング会社「Meridian Consulting」のコーポレートサイト一式（HTML/CSS/JavaScript）
